@@ -1,0 +1,261 @@
+$MAIN_COLOR: #488EC4
+$MAIN_COLOR_PALE: #F5F7F9
+$BLACK: #3E4652
+$GRAY: #7C7C7C
+$ERROR_COLOR: #FF4C5E
+$WARNING_COLOR: #efd512
+$ACTIVE_COLOR: #fad275 
+$ACTIVE_COLOR_HOVER: rgba(255, 255, 0, .1)
+$BUTTON_HOVER_COLOR: #366c96
+$WARNING_BUTTON_COLOR: #FF8A17
+$WARNING_BUTTON_COLOR_HOVER: #F06A06
+$COLOR_1: #488EC4
+$COLOR_2: #FF8A17
+$COLOR_3: #67C1C7
+$COLOR_4: #F24B56
+$COLOR_5: #3BA44A
+$COLOR_6: #EDC339
+$COLOR_7: #B97CBF
+$COLOR_8: #A3735E
+$COLOR_9: #FF98A6
+$COLOR_10: #A8A8A8
+
+$PADDING_SLIM: 0.1rem 0.4rem
+$PADDING_LARGE: 0.4rem 0.8rem
+$PADDING_WRAPPER: 0 20px
+
+$BORDER_RADIUS_DEFAULT: 0.2rem
+
+$MODAL_LAYER: 10
+$MODAL_BG_LAYER: 5
+$TOOLTIP_LAYER: 2
+
+@mixin hover
+  cursor: pointer
+  color: #ffffff
+  background: $MAIN_COLOR
+  border-radius: 100px
+  transition: .6s
+
+@mixin text_input
+  border: none
+  background: $MAIN_COLOR_PALE
+  width: 100%
+  padding: 10px 20px
+  box-sizing: border-box
+  border-radius: $BORDER_RADIUS_DEFAULT
+  position: relative
+  &::placeholder
+    color: $BLACK
+    opacity: .3
+  &:focus
+    outline: none
+
+@mixin suggestions
+  border: none
+  box-shadow: 0 2px 5px rgba(62, 70, 82, .22)
+  padding: 20px 0
+  margin: 0
+  position: absolute
+  background-color: #ffffff
+  z-index: 100
+
+  > li
+    font-size: 16px
+    line-height: 24px
+    padding: 0 20px
+    > div
+      display: flex
+      align-items: center
+      > .external-link-alt
+        margin-left: auto
+        padding-left: 2rem
+    &.hover
+      color: #ffffff
+      background-color: $MAIN_COLOR
+      cursor: pointer
+
+@mixin button
+  color: #ffffff
+  background: $MAIN_COLOR
+  font-size: 16px
+  font-weight: 500
+  padding: 6px 22px
+  border: none
+  border-radius: $BORDER_RADIUS_DEFAULT
+  display: flex
+  align-items: center
+  &:focus
+    outline: none
+  &:hover
+    cursor: pointer
+    background: $BUTTON_HOVER_COLOR
+    transition: 0.6s
+  > svg
+    font-size: 14px
+    margin-right: 4px
+  &.update
+    background: $WARNING_BUTTON_COLOR
+    &:hover
+      background: $WARNING_BUTTON_COLOR_HOVER
+      transition: 0.6s
+  &.disabled
+    background: #cccccc
+    color: #ffffff
+    cursor: not-allowed
+    &:hover
+      background: #cccccc
+
+@mixin table
+  width: 100%
+  border-collapse: collapse
+  .checkbox
+    text-align: center
+    > input[type="checkbox"]
+      cursor: pointer
+      position: relative
+      width: 15px
+      height: 15px
+  > thead
+    font-size: 14px
+    > tr
+      &:hover
+        background-color: $ACTIVE_COLOR_HOVER
+      > th
+        position: sticky
+        top: 0
+        text-align: left
+        padding: 8px 0 6px 10px
+        background-color: #ffffff
+        z-index: 1
+        .small
+          font-weight: normal
+          font-size: 12px
+        &:before,
+        &:after
+          content: ''
+          width: 100%
+          position: absolute
+          background-color: $BLACK
+          left: 0
+        &:before
+          height: 3px
+          top: 0
+        &:after
+          height: 1px
+          bottom: 0
+        &.checkbox
+          text-align: center
+          min-width: 25px
+  > tbody
+    border-bottom: 3px solid $BLACK
+    > tr
+      > td
+        font-size: 14px
+        line-height: 18px
+        padding: 12px 10px
+        position: relative
+        &.annotation
+          color: $MAIN_COLOR
+          > svg:hover
+            cursor: pointer
+            color: $BUTTON_HOVER_COLOR
+        &.gene_expression_patterns
+          min-width: 200px
+          max-width: 400px
+          img
+            max-width: 400px
+      &:nth-of-type(even)
+        background-color: $MAIN_COLOR_PALE
+      &:hover
+        background-color: $ACTIVE_COLOR_HOVER
+
+@mixin select
+  cursor: pointer
+  width: 70%
+  font-size: 22px
+  font-width: normal
+  padding: 4px
+  background: $MAIN_COLOR_PALE
+  border: none
+  border-radius: $BORDER_RADIUS_DEFAULT
+  transition: 0.6s
+  &:focus
+    outline: none
+  &:hover
+    background-color: $MAIN_COLOR
+    color: #fff
+    transition: all 0.3s
+
+@mixin modal_bg
+  width: 100vw
+  height: 100vh
+  background-color: rgba(0, 0, 0, .2)
+  position: fixed
+  top: 0
+  left: 0
+  z-index: $MODAL_BG_LAYER
+
+@mixin modal
+  position: fixed
+  top: 50%
+  left: 50%
+  max-height: 70vh
+  overflow: auto
+  transform: translate(-50%, -50%)
+  background-color: #ffffff
+  padding: 55px 67px
+  z-index: $MODAL_LAYER
+
+@mixin sample_query
+  .example
+    font-size: 12px
+    margin-left: 0.5rem
+    color: $GRAY
+    font-weight: 100
+  .sample_value
+    position: relative
+    color: $MAIN_COLOR
+    font-size: 14px
+    font-weight: 600
+    padding: $PADDING_SLIM
+    &:hover
+      +hover
+
+@mixin ontology_tag
+  font-size: 12px
+  color: $GRAY
+
+@mixin warning
+  text-align: center
+  > .fa-exclamation-triangle
+    color: $WARNING_COLOR
+
+@mixin display_settings_wrapper
+  display: flex
+  justify-content: flex-end
+  margin-left: auto
+  top: 119px
+  background-color: #ffffff
+  z-index: 1
+  word-break: keep-all
+  > .display_settings
+    +display_settings
+
+@mixin display_settings
+    color: $MAIN_COLOR
+    text-decoration: underline
+    margin: 5px 0
+    &:hover
+      cursor: pointer
+
+@mixin text_with_icon
+  text-decoration: underline
+  cursor: pointer
+  color: $MAIN_COLOR
+  position: relative
+  padding-left: 1.1rem
+  >svg
+    position: absolute
+    top: 2px
+    left: 0

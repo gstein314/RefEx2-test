@@ -1,0 +1,86 @@
+{
+  "ComparisonButton": {
+    "description": "Auto imported from components/ComparisonButton.vue"
+  },
+  "MedianBar": {
+    "description": "Auto imported from components/MedianBar.vue"
+  },
+  "MedianScale": {
+    "description": "Auto imported from components/MedianScale.vue"
+  },
+  "IconsIconBase": {
+    "description": "Auto imported from components/icons/IconBase.vue"
+  },
+  "IconsIconBombyxMori": {
+    "description": "Auto imported from components/icons/IconBombyxMori.vue"
+  },
+  "IconsIconDrosophilidae": {
+    "description": "Auto imported from components/icons/IconDrosophilidae.vue"
+  },
+  "IconsIconHuman": {
+    "description": "Auto imported from components/icons/IconHuman.vue"
+  },
+  "IconsIconMouse": {
+    "description": "Auto imported from components/icons/IconMouse.vue"
+  },
+  "IconsIconOryzasativa": {
+    "description": "Auto imported from components/icons/IconOryzasativa.vue"
+  },
+  "ScreenerView": {
+    "description": "Auto imported from components/ScreenerView/ScreenerView.vue"
+  },
+  "ScreenerViewGene": {
+    "description": "Auto imported from components/ScreenerView/ScreenerViewGene.vue"
+  },
+  "ScreenerViewSample": {
+    "description": "Auto imported from components/ScreenerView/ScreenerViewSample.vue"
+  },
+  "ModalView": {
+    "description": "Auto imported from components/ModalView/ModalView.vue"
+  },
+  "ModalViewAlert": {
+    "description": "Auto imported from components/ModalView/ModalViewAlert.vue"
+  },
+  "ModalViewCompare": {
+    "description": "Auto imported from components/ModalView/ModalViewCompare.vue"
+  },
+  "ModalViewDisplay": {
+    "description": "Auto imported from components/ModalView/ModalViewDisplay.vue"
+  },
+  "ModalViewFilter": {
+    "description": "Auto imported from components/ModalView/ModalViewFilter.vue"
+  },
+  "ModalViewGene": {
+    "description": "Auto imported from components/ModalView/ModalViewGene.vue"
+  },
+  "ModalViewLoading": {
+    "description": "Auto imported from components/ModalView/ModalViewLoading.vue"
+  },
+  "SearchFilterNavigation": {
+    "description": "Auto imported from components/search/FilterNavigation.vue"
+  },
+  "SearchFilterTab": {
+    "description": "Auto imported from components/search/FilterTab.vue"
+  },
+  "SearchBar": {
+    "description": "Auto imported from components/search/SearchBar.vue"
+  },
+  "SearchSpeciesNavigation": {
+    "description": "Auto imported from components/search/SpeciesNavigation.vue"
+  },
+  "ResultsIndexResults": {
+    "description": "Auto imported from components/results/IndexResults.vue"
+  },
+  "ResultsItemComparison": {
+    "description": "Auto imported from components/results/ItemComparison.vue"
+  },
+  "ResultsProjectResults": {
+    "description": "Auto imported from components/results/ProjectResults.vue"
+  },
+  "ResultsPagination": {
+    "description": "Auto imported from components/results/ResultsPagination.vue"
+  },
+  "ResultsTableHeader": {
+    "description": "Auto imported from components/results/TableHeader.vue"
+  }
+}
