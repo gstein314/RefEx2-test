@@ -8,33 +8,6 @@
   "MedianScale": {
     "description": "Auto imported from components/MedianScale.vue"
   },
-  "IconsIconBase": {
-    "description": "Auto imported from components/icons/IconBase.vue"
-  },
-  "IconsIconBombyxMori": {
-    "description": "Auto imported from components/icons/IconBombyxMori.vue"
-  },
-  "IconsIconDrosophilidae": {
-    "description": "Auto imported from components/icons/IconDrosophilidae.vue"
-  },
-  "IconsIconHuman": {
-    "description": "Auto imported from components/icons/IconHuman.vue"
-  },
-  "IconsIconMouse": {
-    "description": "Auto imported from components/icons/IconMouse.vue"
-  },
-  "IconsIconOryzasativa": {
-    "description": "Auto imported from components/icons/IconOryzasativa.vue"
-  },
-  "ScreenerView": {
-    "description": "Auto imported from components/ScreenerView/ScreenerView.vue"
-  },
-  "ScreenerViewGene": {
-    "description": "Auto imported from components/ScreenerView/ScreenerViewGene.vue"
-  },
-  "ScreenerViewSample": {
-    "description": "Auto imported from components/ScreenerView/ScreenerViewSample.vue"
-  },
   "ModalView": {
     "description": "Auto imported from components/ModalView/ModalView.vue"
   },
@@ -55,6 +28,33 @@
   },
   "ModalViewLoading": {
     "description": "Auto imported from components/ModalView/ModalViewLoading.vue"
+  },
+  "ScreenerView": {
+    "description": "Auto imported from components/ScreenerView/ScreenerView.vue"
+  },
+  "ScreenerViewGene": {
+    "description": "Auto imported from components/ScreenerView/ScreenerViewGene.vue"
+  },
+  "ScreenerViewSample": {
+    "description": "Auto imported from components/ScreenerView/ScreenerViewSample.vue"
+  },
+  "IconsIconBase": {
+    "description": "Auto imported from components/icons/IconBase.vue"
+  },
+  "IconsIconBombyxMori": {
+    "description": "Auto imported from components/icons/IconBombyxMori.vue"
+  },
+  "IconsIconDrosophilidae": {
+    "description": "Auto imported from components/icons/IconDrosophilidae.vue"
+  },
+  "IconsIconHuman": {
+    "description": "Auto imported from components/icons/IconHuman.vue"
+  },
+  "IconsIconMouse": {
+    "description": "Auto imported from components/icons/IconMouse.vue"
+  },
+  "IconsIconOryzasativa": {
+    "description": "Auto imported from components/icons/IconOryzasativa.vue"
   },
   "SearchFilterNavigation": {
     "description": "Auto imported from components/search/FilterNavigation.vue"
