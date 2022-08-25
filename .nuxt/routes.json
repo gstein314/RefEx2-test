@@ -2,29 +2,29 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "/Users/gyoji/Documents/RefEx2-test/pages/about.vue",
+    "component": "/Users/nodayukiko/Desktop/GitClone/RefEx2-test/pages/about.vue",
     "chunkName": "pages/about",
-    "_name": "_fc5a6858"
+    "_name": "_0c952d20"
   },
   {
     "name": "help",
     "path": "/help",
-    "component": "/Users/gyoji/Documents/RefEx2-test/pages/help.vue",
+    "component": "/Users/nodayukiko/Desktop/GitClone/RefEx2-test/pages/help.vue",
     "chunkName": "pages/help",
-    "_name": "_a354996c"
+    "_name": "_37480f04"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/gyoji/Documents/RefEx2-test/pages/index.vue",
+    "component": "/Users/nodayukiko/Desktop/GitClone/RefEx2-test/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_bceab2ce"
+    "_name": "_2c4d07e5"
   },
   {
     "name": "organism-project",
     "path": "/:organism/:project?",
-    "component": "/Users/gyoji/Documents/RefEx2-test/pages/_organism/_project.vue",
+    "component": "/Users/nodayukiko/Desktop/GitClone/RefEx2-test/pages/_organism/_project.vue",
     "chunkName": "pages/_organism/_project",
-    "_name": "_639e7ec1"
+    "_name": "_094cce16"
   }
 ]

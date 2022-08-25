@@ -13,9 +13,9 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_4291bc4f from 'nuxt_plugin_plugin_4291bc4f' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_axios_0da8a5e5 from 'nuxt_plugin_axios_0da8a5e5' // Source: ./axios.js (mode: 'all')
-import nuxt_plugin_fontawesome_5bfc8d32 from 'nuxt_plugin_fontawesome_5bfc8d32' // Source: ./fontawesome.js (mode: 'all')
+import nuxt_plugin_plugin_62f5d383 from 'nuxt_plugin_plugin_62f5d383' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_axios_43aeeb19 from 'nuxt_plugin_axios_43aeeb19' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_fontawesome_8f7770ca from 'nuxt_plugin_fontawesome_8f7770ca' // Source: ./fontawesome.js (mode: 'all')
 import nuxt_plugin_vuetagsinput_eb545e9a from 'nuxt_plugin_vuetagsinput_eb545e9a' // Source: ../plugins/vue-tags-input (mode: 'client')
 import nuxt_plugin_plugin_3be9de27 from 'nuxt_plugin_plugin_3be9de27' // Source: ../plugins/plugin (mode: 'client')
 import nuxt_plugin_mixin_99b4d168 from 'nuxt_plugin_mixin_99b4d168' // Source: ../plugins/mixin.js (mode: 'all')
@@ -212,16 +212,16 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_4291bc4f === 'function') {
-    await nuxt_plugin_plugin_4291bc4f(app.context, inject)
+  if (typeof nuxt_plugin_plugin_62f5d383 === 'function') {
+    await nuxt_plugin_plugin_62f5d383(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_0da8a5e5 === 'function') {
-    await nuxt_plugin_axios_0da8a5e5(app.context, inject)
+  if (typeof nuxt_plugin_axios_43aeeb19 === 'function') {
+    await nuxt_plugin_axios_43aeeb19(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_fontawesome_5bfc8d32 === 'function') {
-    await nuxt_plugin_fontawesome_5bfc8d32(app.context, inject)
+  if (typeof nuxt_plugin_fontawesome_8f7770ca === 'function') {
+    await nuxt_plugin_fontawesome_8f7770ca(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_vuetagsinput_eb545e9a === 'function') {
