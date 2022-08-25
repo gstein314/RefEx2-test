@@ -29,14 +29,17 @@
   "ModalViewLoading": {
     "description": "Auto imported from components/ModalView/ModalViewLoading.vue"
   },
-  "ScreenerView": {
-    "description": "Auto imported from components/ScreenerView/ScreenerView.vue"
+  "SearchFilterNavigation": {
+    "description": "Auto imported from components/search/FilterNavigation.vue"
   },
-  "ScreenerViewGene": {
-    "description": "Auto imported from components/ScreenerView/ScreenerViewGene.vue"
+  "SearchFilterTab": {
+    "description": "Auto imported from components/search/FilterTab.vue"
   },
-  "ScreenerViewSample": {
-    "description": "Auto imported from components/ScreenerView/ScreenerViewSample.vue"
+  "SearchBar": {
+    "description": "Auto imported from components/search/SearchBar.vue"
+  },
+  "SearchSpeciesNavigation": {
+    "description": "Auto imported from components/search/SpeciesNavigation.vue"
   },
   "IconsIconBase": {
     "description": "Auto imported from components/icons/IconBase.vue"
@@ -56,18 +59,6 @@
   "IconsIconOryzasativa": {
     "description": "Auto imported from components/icons/IconOryzasativa.vue"
   },
-  "SearchFilterNavigation": {
-    "description": "Auto imported from components/search/FilterNavigation.vue"
-  },
-  "SearchFilterTab": {
-    "description": "Auto imported from components/search/FilterTab.vue"
-  },
-  "SearchBar": {
-    "description": "Auto imported from components/search/SearchBar.vue"
-  },
-  "SearchSpeciesNavigation": {
-    "description": "Auto imported from components/search/SpeciesNavigation.vue"
-  },
   "ResultsIndexResults": {
     "description": "Auto imported from components/results/IndexResults.vue"
   },
@@ -82,5 +73,14 @@
   },
   "ResultsTableHeader": {
     "description": "Auto imported from components/results/TableHeader.vue"
+  },
+  "ScreenerView": {
+    "description": "Auto imported from components/ScreenerView/ScreenerView.vue"
+  },
+  "ScreenerViewGene": {
+    "description": "Auto imported from components/ScreenerView/ScreenerViewGene.vue"
+  },
+  "ScreenerViewSample": {
+    "description": "Auto imported from components/ScreenerView/ScreenerViewSample.vue"
   }
 }
