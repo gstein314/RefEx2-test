@@ -17,7 +17,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: 'favicon.ico?' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: 'path/to/favicon.ico' }],
     script: [{ src: 'https://use.typekit.net/duq8dbh.js' }],
   },
 
